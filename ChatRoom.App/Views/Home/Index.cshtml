@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "chat room";    
+}
+
+<div class="row">
+    <h3 class="col-md-offset-2 col-md-8 heading"></h3>
+    <div class="col-md-offset-2 col-md-8 chatBox">
+
+    </div>
+    
+    <div class="col-md-offset-2 col-md-8">
+        <input class="messageBox" type="text" placeholder="  write message ...." />
+        <button id="btnSave" class="btn-info" style="float: right; height: 40px; margin-top: 25px;"> save conversation </button>        
+    </div>
+
+</div>
+
+@section scripts{   
+<script src="~/Scripts/chatroom.js"></script>
+}
+
+
+
+
